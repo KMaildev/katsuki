@@ -104,7 +104,7 @@
                                                     </a>
                                                 </li>
 
-                                                <li>
+                                                <li hidden>
                                                     <a href="{{ route('team') }}">
                                                         Our Executive Team Members
                                                     </a>
