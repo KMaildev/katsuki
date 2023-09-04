@@ -138,8 +138,6 @@
     </section>
 
 
-
-
     <section class="about-one about-one--about">
         <div class="about-one__bg" style="background-image: url({{ asset('data/bg1.jpg') }});">
         </div>

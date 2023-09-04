@@ -355,21 +355,19 @@
         </defs>
     </svg>
     <div id="jssor_1"
-        style="position:relative;margin:0 auto;top:0px;left:0px;width:1600px;height:1000px;overflow:hidden;visibility:hidden;">
+        style="position:relative;margin:0 auto;top:0px;left:0px;width:1600px;height:800px;overflow:hidden;visibility:hidden;">
         <div data-u="slides"
-            style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:1000px;overflow:hidden;">
+            style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:800px;overflow:hidden;">
             <div>
-                <img data-u="image" data-src="{{ asset('data/slider/1.jpg') }}" />
+                <img data-u="image" data-src="{{ asset('data/slider1.jpg') }}" />
             </div>
 
             <div>
-                <img data-u="image" data-src="{{ asset('data/ps_s1.jpg') }}" />
+                <img data-u="image" data-src="{{ asset('data/slider2.jpg') }}" />
             </div>
+
             <div>
-                <img data-u="image" data-src="{{ asset('data/ps_s2.jpg') }}" />
-            </div>
-            <div>
-                <img data-u="image" data-src="{{ asset('data/ps_s3.jpg') }}" />
+                <img data-u="image" data-src="{{ asset('data/slider3.jpg') }}" />
             </div>
         </div>
 

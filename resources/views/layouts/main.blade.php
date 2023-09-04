@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Katsuki Co.,Ltd</title>
+    <title>Katsuki Co.,Ltd - @yield('title')</title>
+
+    <meta name="keywords" content="Katsuki Co.,Ltd" />
+    <meta name="author" content="Katsuki Co.,Ltd" />
+    <meta name="robots" content="Katsuki Co.,Ltd" />
+    <meta name="description" content="Katsuki Co.,Ltd" />
+    <link rel="icon" href="{{ asset('data/logo.jpg') }}" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('data/logo.jpg') }}" />
+
     <link rel="stylesheet" href="{{ asset('assets/vendors/animate/animate.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/animate/custom-animate.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/vendors/bootstrap/css/bootstrap.min.css') }}" />
@@ -38,7 +46,7 @@
         @include('layouts.menu')
 
         @if (URL::current() == route('home'))
-            @include('layouts.slider')
+            @include('layouts.slider2')
         @endif
 
 
@@ -56,18 +64,18 @@
             </span>
             <div class="logo-box">
                 <a href="index.html" aria-label="logo image">
-                    <img src="{{ asset('assets/images/resources/mobile-nav-logo.png') }}" alt="" />
+                    <img src="{{ asset('data/logo.jpg') }}" alt="" />
                 </a>
             </div>
             <div class="mobile-nav__container"></div>
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a href="mailto:md@katsukimm.com">md@katsukimm.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:123456789">444 000 777 66</a>
+                    <a href="tel:+959 5410 806">+959 5410 806</a>
                 </li>
             </ul>
             <div class="mobile-nav__social">
@@ -77,19 +85,6 @@
                 <a href="#" class="fab fa-instagram"></a>
             </div>
 
-        </div>
-    </div>
-
-    <div class="search-popup">
-        <div class="search-popup__overlay search-toggler"></div>
-        <div class="search-popup__content">
-            <form action="#">
-                <label for="search" class="sr-only">search here</label>
-                <input type="text" id="search" placeholder="Search Here..." />
-                <button type="submit" aria-label="search submit" class="thm-btn">
-                    <i class="icon-magnifying-glass"></i>
-                </button>
-            </form>
         </div>
     </div>
 

@@ -43,13 +43,12 @@
 
                 <div class="main-header-two__top-right">
                     <div class="number">
-                        <p><span class="icon-phone-call-2"></span> <a href="tel:426667770000">42 666 777
-                                0000</a>
+                        <p>
+                            <span class="icon-phone-call-2"></span>
+                            <a href="tel:+959 5410 806">
+                                +959 5410 806
+                            </a>
                         </p>
-                    </div>
-
-                    <div class="btn-box">
-                        <a href="contact.html">Lat's Talk</a>
                     </div>
                 </div>
             </div>
@@ -65,9 +64,9 @@
 
                             <div class="main-header-two__bottom-left">
                                 <div class="logo-box-one">
-                                    <a href="index.html">
-                                        <img src="{{ asset('assets/images/resources/logo-3.png') }}" alt="Awesome Logo"
-                                            title="">
+                                    <a href="{{ route('home') }}">
+                                        <img src="{{ asset('data/logo.jpg') }}" alt="Awesome Logo" title=""
+                                            style="width: 130px;">
                                     </a>
                                 </div>
                             </div>
@@ -89,6 +88,7 @@
                                         <li class="current">
                                             <a href="javascript::void(0)">
                                                 About Us
+                                                <span class="line"></span>
                                                 <i class="icofont-simple-down"></i>
                                             </a>
                                             <ul>
@@ -115,6 +115,7 @@
                                         <li class="current">
                                             <a href="{{ route('school') }}">
                                                 Japanese School
+                                                <span class="line"></span>
                                             </a>
                                         </li>
 
@@ -122,6 +123,7 @@
                                         <li class="current">
                                             <a href="javascript::void(0)">
                                                 Job Category
+                                                <span class="line"></span>
                                                 <i class="icofont-simple-down"></i>
                                             </a>
                                             <ul>
@@ -143,6 +145,7 @@
                                         <li class="current">
                                             <a href="javascript::void(0)">
                                                 Activities
+                                                <span class="line"></span>
                                                 <i class="icofont-simple-down"></i>
                                             </a>
                                             <ul>
@@ -159,6 +162,7 @@
                                         <li class="current">
                                             <a href="{{ route('contact.index') }}">
                                                 Contact Us
+                                                <span class="line"></span>
                                             </a>
                                         </li>
 
